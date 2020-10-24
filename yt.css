@@ -1,0 +1,117 @@
+.hero,
+.hero_content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero {
+  overflow: hidden;
+  background: url("https://1.bp.blogspot.com/-cOR4FJQAtBI/Xpwd8VsJs5I/AAAAAAAAw5M/H3W5yinwO7M5XUczgp2LXlIs8VT0hZO3gCLcBGAsYHQ/s1600/1.jpg") no-repeat 50% fixed;
+  background-size: cover;
+}
+
+.hero_video,
+.hero iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 56.25vw;
+  /* 9/16*100 = 56.25 */
+  min-height: 100vh;
+  min-width: 177.77vh;
+  /* 16/9*100 = 177.77 */
+}
+
+.hero iframe {
+  opacity: 0;
+}
+
+.hero iframe.loaded {
+  opacity: 1;
+}
+
+.hero_content {
+  z-index: 8675309;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.hero_content2 {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 8675309;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.hero_content3 {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  bottom: 0;
+  left: 30%;
+  z-index: 8675309;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+a {
+  opacity: 0.3;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.hero_content_title {
+  color: #fff;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.375em;
+  font-weight: lighter;
+}
+
+.hero_content_title2 {
+  color: #fff;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 1.75rem;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.375em;
+  font-weight: lighter;
+}
+
+.hero_content_title3 {
+  color: #fff;
+  font-family: Georgia, Times, Times New Roman, serif;
+  font-size: 1rem;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.375em;
+  font-weight: lighter;
+}
