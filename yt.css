@@ -9,8 +9,8 @@
 
 .hero {
   overflow: hidden;
-  background: url("https://1.bp.blogspot.com/-cOR4FJQAtBI/Xpwd8VsJs5I/AAAAAAAAw5M/H3W5yinwO7M5XUczgp2LXlIs8VT0hZO3gCLcBGAsYHQ/s1600/1.jpg") no-repeat 50% fixed;
-  background-size: cover;
+  /*background: url("https://1.bp.blogspot.com/-cOR4FJQAtBI/Xpwd8VsJs5I/AAAAAAAAw5M/H3W5yinwO7M5XUczgp2LXlIs8VT0hZO3gCLcBGAsYHQ/s1600/1.jpg") no-repeat 50% fixed;*/
+  /*background-size: cover;*/
 }
 
 .hero_video,
